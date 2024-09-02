@@ -1,0 +1,25 @@
+.members-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  margin-top: 90px;
+  padding-left: 60px;
+  background-color: rgb(255, 255, 255);
+}
+
+.members-item {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  width: 250px;
+}
+
+.members-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
